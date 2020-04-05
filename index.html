@@ -3,36 +3,164 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-<link rel="stylesheet" href="style.css">
+    <title>Project</title>
 </head>
 <body>
-    
-    <h1>Hello World!</h1>
-    <h2>All About Me </h2> 
-        <h3>Barbara Walters, RN, MBA </h3>
+    <nav class="navbar">
+        <ul>
+           <li id="brand"><span href="#home" class="nav-link">Barbara Walters</span></li>
+           <li><a href="https://www.linkedin.com/" class="nav-link" target="_blank">Linked In</a></li>
+           <li><a href="http://www.lutheranfamily.org/" class="nav-link" target="_blank"> Current Employer</a></li>
+           <li><a href="https://www.facebook.com/" class="nav-link" target="_blank" >Facebook</a></li>
+          
+       </ul>
+       </nav>
+       <header id="home">
+         <h1 class="header-tag">  Barbara A. Walters </12>
+         <br>
+         <h3 class="header-tag"><i>Solutions-Oriented Professional with Broad-based Experience and Skills </i> </h3>
+<br>
+  </header>
+       </div class="main">
+        <section id="about"
+         <div id="about-picture">
+          <img src="pic.jpg"; alt="" id="profile-pic"> 
+          
+        </div>
+        <div id="about-content">
+             <h2>Barbara Walters, RN, MBA</h2>
+             <h3>20+ Years Experience</h3>
+          
+             <p>Management * Strategic Planning * Accounting/Finance * Human Resources * Administration * Fundraising/Development * Clinical/Nursing </p>
+             <br>
+<p>
+<h3> Special Training </h3>
+  •	Strategic Planning Executive Training - Stanford University, Palo Alto CA <br>
+•	Non-profit Executive Leadership Training - Stanford University, Palo Alto, CA
+<br>
+<br>
 
-    <p>I have 20+ years of expertise in Finance, Human Resources, and Management. I have experience in both the for-profit and not-for-profit sectors and multiple industries. Additionally, I am a Registered Nurse licensed in Indiana and have experience in hospital settings as well as school-based nursing and clinical research.
-                       
-    </p>
-<Nav>
-    Finance
-</Nav>
 
+<div id="descriptions"
+<br>
+<br>
+<br>
+<br>
+<b>Finance/Accounting</b> - Manage entire financial operations; Direct Strategic Planning process; Oversee budget preparation and Financial Statement compilation; Prepare financial analyses and cash flow projections.
+<br>
+<br>
+<b>Human Resources</b> - Employee benefits; Compliance with employment law; Recruiting/selection/orientation/retention; Staff training; Policy development/compliance; Performance assessment
+<br> 
+<br>
+<b>Administration</b> - Coordinate Accreditation process; Oversee client outcome database/outcome reporting; Supervise fundraising/development initiatves including grants/annual fund/capital campaign
+<br>
+<br>
+<b>Nursing/Clinical </b> - Manage/prioritize care of multiple patients; complete patient assessments/implement appropriate interventions.  Coordinate care/provide supervision of unlicensed personnel/LPN's.  
+<br>
+</p>
+</div>
+          </div>
+          </section>
+         </div>
+          
+         <style>
+    body{
+            background-color:lightblue;
+            }
+          nav {
+            background-color:grey;
+            position: fixed; 
+            top: 0;
+            left: 0;
+            height: 50px;
+            width: 100vw;
+            z-index: 1;
+          }
+          nav ul li {
+           float: right;
+           margin-right: 50px;
+           list-style-type: none;
+           text-align: center;
+          }
+          #brand {
+            float: left;
+          }
+          .nav-link {
+            color: darkred;
+            text-decoration: none;
+            font-family: 'Acme', sans-serif;
+          }
+          .nav-link:hover{
+            color:lightblue; 
+            font-weight: bold
+          }
+          #brand .nav-link {
+            color: lightblue;
+            font-size: 14pt;
+          }
+          #brand.nav-link:hover{
+            color: darkred;
+          }
+          h1{
+            font-size: 30pt;
+            font-family:'acme', sans-serif;
+          
+                   
+          }
+          #home {
+            margin-top: 50px;
+            position: relative;
+            left: -8px;
+            width: 110%;
+            height: 30%;
+            padding-top: 3em;
+            background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=753&q=80') center 75% no-repeat fixed;
+            background-size: cover;
+          }
+          .header-tag{
+            text-align: center;
+            color: darkblue;
+            text-shadow: 1px 1px 1px black;
+            }
+          h3.header-tag {
+            margin-top:-30px; 
+            font-size: 18pt; 
+          }
+          h2{
+            font-family: 'acme', sans-serif;
+            color: darkblue;
+            }
+          .main {
+            text-align: center;
+          }
+          #about {
+            margin-top: 50px
+            text-align center;
+              
+          }
+          #about-picture {
+            width: 30wv;
+            float:left
+          }
+          #profile-pic {
+            height: 300px;
+            width: 300px;
+            object-fit: cover;
+            border-radius: 0.4em
+            box-shadow 2px 2px 2px black;
+   float:left;
+padding-right: 30px;
+ 
+          }
+          #about-content {
+            width: 100vw;
+            float: right
+            text-align center;
+            }
+#descriptions {
+  color: darkblue
+}
 
-
-<Nav>
-      Human Resources  
- </Nav>
-
- <Mav>
-       Administration
- </Mav>
-
-
-<nav>
-        Nursing/Clinical
-</nav>
-
+         </style> 
 </body>
 </html>
